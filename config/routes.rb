@@ -11,9 +11,17 @@ Rails.application.routes.draw do
       get :followings
       get :followers
     end
+    
+    member do
+      get :likes
+      get :favorites
+    end
+    
   end
 
   resources :microposts, only: [:create, :destroy]
   resources :relationships, only: [:create, :destroy]
+  resources :favorites, only: [:index, :show, :create, :destory]
+  
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
