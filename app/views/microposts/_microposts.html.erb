@@ -12,7 +12,7 @@
         <div>
           <% if current_user.favoriting?(micropost) %>
           <% binding.pry %>
-            <%= form_with(model: user.favorites.find_by(favorite_id: user.id), local: true, method: :delete) do |f| %>
+            <%= form_with(model: current_user.favorites.find_by(favorite_id: user.id), local: true, method: :delete) do |f| %>
               <%= hidden_field_tag :favorite_id, current_user.id %>
               <%= f.submit 'Unfavorite', class: 'btn btn-danger btn-block' %>
             <% end %>
