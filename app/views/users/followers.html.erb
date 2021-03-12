@@ -8,6 +8,10 @@
         <img class="rounded img-fluid" src="<%= gravatar_url(@user, { size: 500 }) %>" alt="">
       </div>
     </div>
+    <figure>
+      <img src="https://www.football-lab.jp/img/team/NIIG_l.png" alt="新潟アルビレックスのロゴ">
+      <figcaption>新潟アルビレックスのロゴ</figcaption>
+    </figure>
     <%= render 'relationships/follow_button', user: @user %>
   </aside>
   <div class="col-sm-8">
@@ -18,5 +22,9 @@
       <li class="nav-item"><a href="<%= likes_user_path(@user) %>" class="nav-link <%= 'active' if current_page?(likes_user_path(@user)) %>">いいね <span class="badge badge-secondary"><%= @count_likes %></span></a></li>
     </ul>
     <%= render 'users', users: @followers %>
+    <figure>
+      <img src="http://gs-files.spaia.jp/wp-content/uploads/SP_1811_G012f.jpg" alt="新潟アルビレックスの試合中の写真">
+      <figcaption>新潟アルビレックスの試合中の写真</figcaption>
+    </figure>
   </div>
 </div>
