@@ -11,7 +11,6 @@
         </div>
         <div>
           <% if current_user.favoriting?(micropost) %>
-          
             <%= form_with(model: current_user.favorites.find_by(micropost_id: micropost.id), local: true, method: :delete) do |f| %>
               <%= hidden_field_tag :micropost_id, micropost.id %>
               <%= f.submit 'いいね削除', class: 'btn btn-danger btn-block' %>
@@ -27,9 +26,7 @@
           <% end %>
         </div>
       </div>
-     
     </li>
   <% end %>
-  
   <%= paginate microposts %>
 </ul>

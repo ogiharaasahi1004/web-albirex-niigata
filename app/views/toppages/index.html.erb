@@ -7,14 +7,12 @@
         </div>
         <%= f.submit '投稿する', class: 'btn btn-primary btn-block' %>
       <% end %>
-      <div class="col-sm-8">
-         <div>
-           <figure>
-            <%# app/assets/images %>
-            <%= image_tag "https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg", alt: "サッカーの楽しさ", id: "assets", class: "image", width: "200px" %>
-            <figcaption>https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg, サッカーの楽しさ</figcaption>
-    　      </figure>
-         </div>
+      <div>
+        <figure>
+          <%# app/assets/images %>
+          <%= image_tag "https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg", alt: "サッカーの楽しさ", id: "assets", class: "image", width: "200px" %>
+          <figcaption>https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg, サッカーの楽しさ</figcaption>
+        </figure>
       </div>
     </aside>
     <div class="col-sm-8">
@@ -27,17 +25,16 @@
     <div class="text-center">
       <h1>ようこそ！　Web新潟アルビレックスへ！</h1>
       <%= link_to '今すぐ登録する!', signup_path, class: 'btn btn-lg btn-primary' %>
-      
       <h2>さあ！ あなたの思いを仲間と共有しよう！</h2>
     </div>
   </div>
+  
   <div class="text-center">
     <figure>
-        <%# app/assets/images %>
-        <%= image_tag "https://cdn.pixabay.com/photo/2016/11/29/02/05/audience-1866738_960_720.jpg", alt: "最高峰のサッカーの魅力", id: "assets", class: "image", width: "800px" %>
-        <figcaption>https://cdn.pixabay.com/photo/2016/11/29/02/05/audience-1866738_960_720.jpg, 最高峰のサッカーの魅力</figcaption>
+      <%# app/assets/images %>
+      <%= image_tag "https://cdn.pixabay.com/photo/2019/12/16/08/50/football-4698906_960_720.jpg", alt: "サッカーボール", id: "assets", class: "image", width: "800px" %>
+      <figcaption>https://cdn.pixabay.com/photo/2019/12/16/08/50/football-4698906_960_720.jpg, サッカーボール</figcaption>
     </figure>
-  </div>
   </div>
   </div>
 <% end %>
