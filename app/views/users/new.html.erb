@@ -34,8 +34,9 @@
 </div>
 
 <div class="text-center">
-   <figure>
-      <img src="https://www.niigata-nippo.co.jp/newsfile/image/detail/0071947000465828.jpg" alt="新潟アルビレックスのゴールシーン">
-      <figcaption>https://www.niigata-nippo.co.jp/newsfile/image/detail/0071947000465828.jpg , 新潟アルビレックスのゴールシーン</figcaption>
-   </figure>
+  <figure>
+    <%# app/assets/images %>
+    <%= image_tag "https://cdn.pixabay.com/photo/2014/10/14/20/24/football-488714_960_720.jpg", alt: "サッカーボールとフィールド", id: "assets", class: "image", width: "400px" %>
+    <figcaption>https://cdn.pixabay.com/photo/2014/10/14/20/24/football-488714_960_720.jpg, サッカーボールとフィールド</figcaption>
+  </figure>
 </div>

@@ -8,10 +8,13 @@
         <img class="rounded img-fluid" src="<%= gravatar_url(@user, { size: 500 }) %>" alt="">
       </div>
     </div>
-    <figure>
-      <img src="https://www.football-lab.jp/img/team/NIIG_l.png" alt="新潟アルビレックスのロゴ">
-      <figcaption>https://www.football-lab.jp/img/team/NIIG_l.png , 新潟アルビレックスのロゴ</figcaption>
-    </figure>
+   <div>
+      <figure>
+        <%# app/assets/images %>
+        <%= image_tag "https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg", alt: "サッカーの楽しさ", id: "assets", class: "image", width: "200px" %>
+        <figcaption>https://cdn.pixabay.com/photo/2020/10/10/14/25/ball-5643260_960_720.jpg, サッカーの楽しさ</figcaption>
+    　</figure>
+     </div>
   </aside>
   <div class="col-sm-8">
     <ul class="nav nav-tabs nav-justified mb-3">
