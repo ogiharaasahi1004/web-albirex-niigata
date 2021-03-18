@@ -43,7 +43,7 @@ https://web-albirex.herokuapp.com/
 テストユーザーアカウント
 
 メールアドレス：test@example.com
-パスワード：12341234
+パスワード：test
 ***
 
 # 開発環境
