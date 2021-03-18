@@ -2,7 +2,7 @@
 
 ## サービス概要：
 
-![Web 新潟アルビレックス トップ](https://a3485dc4ae6a4321894a04d7d65de8c4.vfs.cloud9.us-east-1.amazonaws.com/users/1)
+![Web 新潟アルビレックス トップ](https://i.gyazo.com/bfd86922e34b7b80ad35dac05a7dbaf1.png)
 
 スポーツ好きほど熱狂的なファンはいません。私は自ら積極的に学んだ知識を使って、その力を地方の盛り上げるために使いたいと思い、製作しました。
 今も新潟を盛り上げている、新潟アルビレックスのサポーターがさらに交流し、意見交換や内容を共有することができるアプリです。
@@ -56,11 +56,11 @@ https://web-albirex.herokuapp.com/
 ***
 
 # サイトマップ
-![Web 新潟アルビレックス サイトマップ](https://cacoo.com/diagrams/kUqIV8Kkpo2ssLtK/60F9F?reload_rt=1615717148174_0)
+![Web 新潟アルビレックス サイトマップ](https://i.gyazo.com/6b8da094780f3920815a9154526281fd.png)
 ***
 
 # ER図
-![Web 新潟アルビレックス ER図](https://cacoo.com/diagrams/kUqIV8Kkpo2ssLtK/0E844?reload_rt=1615717148174_0)
+![Web 新潟アルビレックス ER図](https://i.gyazo.com/644bb50d126dadd17bdfa6333f77d5c5.png)
 ***
 
 # 実装した各種機能
