@@ -56,11 +56,11 @@ https://web-albirex.herokuapp.com/
 ***
 
 # サイトマップ
-![Web 新潟アルビレックス サイトマップ](https://i.gyazo.com/6b8da094780f3920815a9154526281fd.png)
+![Web 新潟アルビレックス サイトマップ](https://i.gyazo.com/a7171d1378f57f0da9730798d73df744.png)
 ***
 
 # ER図
-![Web 新潟アルビレックス ER図](https://i.gyazo.com/644bb50d126dadd17bdfa6333f77d5c5.png)
+![Web 新潟アルビレックス ER図](https://i.gyazo.com/e56bf80a5b864b25922db55d96f5d9c6.png)
 ***
 
 # 実装した各種機能
