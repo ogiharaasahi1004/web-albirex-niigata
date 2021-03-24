@@ -86,6 +86,27 @@ https://web-albirex.herokuapp.com/
 - DBテーフルのリレーション機能
 ***
 
+# トップページ（ログイン前）
+![Web アルビレックス新潟 トップページ（ログイン前）](https://i.gyazo.com/c13b0e701cb2b78b1bb93f53026eae59.jpg)
+
+# トップページ（ログイン後）
+![Web アルビレックス新潟 トップページ（ログイン後）](https://i.gyazo.com/54cdebe369d29841ed3e68a8982fec0d.png)
+
+# ユーザー登録ページ
+![Web アルビレックス新潟 ユーザー登録ページ](https://i.gyazo.com/b6ff55c14a9fcb6e4183f13b5720e5d0.png)
+
+# ログインページ
+![Web アルビレックス新潟 ログインページ](https://i.gyazo.com/c04f16194b0ce83a348964968909f729.png)
+
+# 投稿一覧ページ
+![Web アルビレックス新潟 投稿一覧ページ](https://i.gyazo.com/ba9a21d2b6c80ebca27471c814174b29.png)
+
+# その他のページ
+- フォロー一覧ページ
+- フォロワー一覧ページ
+- お気に入り一覧ページ
+- ユーザー詳細ページ
+
 # 作成者の自己紹介
 
 新潟大学工学部 新３年　荻原朝飛（２０歳）
@@ -108,3 +129,4 @@ HTML/CSS、Ruby、JavaScript、Firebase、MySQL、Git、GitHub
 『想いが伝わると非常に嬉しいです！ありがとうございました！』
 
 ***
+
