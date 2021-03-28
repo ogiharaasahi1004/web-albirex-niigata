@@ -111,7 +111,7 @@ https://web-albirex.herokuapp.com/
 ![Web アルビレックス新潟 お気に入り一覧ページ](https://i.gyazo.com/91e4d5e0ab0ff853fe60d6265d8a9873.png)
 
 ## ユーザー詳細ページ
-![Web アルビレックス新潟 ユーザー詳細ページ](https://i.gyazo.com/ba9a21d2b6c80ebca27471c814174b29.png)
+![Web アルビレックス新潟 ユーザー詳細ページ](https://i.gyazo.com/e78e7fa807b5638eedc177bd367a3aa7.png)
 
 
 # 作成者の自己紹介
