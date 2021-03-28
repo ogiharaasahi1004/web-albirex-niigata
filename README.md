@@ -101,11 +101,18 @@ https://web-albirex.herokuapp.com/
 ## 投稿一覧ページ
 ![Web アルビレックス新潟 投稿一覧ページ](https://i.gyazo.com/ba9a21d2b6c80ebca27471c814174b29.png)
 
-## その他のページ
-- フォロー一覧ページ
-- フォロワー一覧ページ
-- お気に入り一覧ページ
-- ユーザー詳細ページ
+## フォロー一覧ページ
+![Web アルビレックス新潟 フォロー一覧ページ](https://i.gyazo.com/71e5e8004b6f633bd6e0367a8ef545c9.png)
+
+## フォロワー一覧ページ
+![Web アルビレックス新潟 フォロワー一覧ページ](https://i.gyazo.com/824f8a823e279a6561af042bb726a51d.png)
+
+## お気に入り一覧ページ
+![Web アルビレックス新潟 お気に入り一覧ページ](https://i.gyazo.com/91e4d5e0ab0ff853fe60d6265d8a9873.png)
+
+## ユーザー詳細ページ
+![Web アルビレックス新潟 ユーザー詳細ページ](https://i.gyazo.com/ba9a21d2b6c80ebca27471c814174b29.png)
+
 
 # 作成者の自己紹介
 
