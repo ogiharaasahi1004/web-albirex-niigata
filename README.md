@@ -125,7 +125,7 @@ https://web-albirex.herokuapp.com/
 - 得意な分野: 
 チーム活動、コミュニケーション、プレゼンテーション
 - スキルセット: 
-HTML/CSS、Ruby、JavaScript、Firebase、MySQL、Git、GitHub
+HTML/CSS、Ruby、JavaScript、Vue.js、Firebase、MySQL、Git、GitHub
 - やりたいこと: 
 ヒトとヒトが繋がれる場所を作りたかった。
 - Ruby選んだ理由: 
