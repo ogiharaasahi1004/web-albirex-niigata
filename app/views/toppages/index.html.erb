@@ -1,0 +1,37 @@
+<% if logged_in? %>
+  <div class="row">
+    <aside class="col-sm-4">
+      <div class="form-group">
+      　　<%= render 'users/form', micropost: @micropost %>
+      </div>
+      <div>
+        <figure>
+          <%# app/assets/images %>
+          <%= image_tag "https://cdn.pixabay.com/photo/2013/09/16/19/36/soccer-182994_960_720.jpg", alt: "サッカーの楽しさ", id: "assets", class: "image", width: "200px" %>
+          <figcaption> サッカーの盛り上がり！</figcaption>
+        </figure>
+      </div>
+    </aside>
+    <div class="col-sm-8">
+      <%= render 'microposts/microposts', microposts: @microposts %>
+    </div>
+  </div>
+<% else %>
+  <div class="row">
+  <div class="center jumbotron">
+    <div class="text-center">
+      <h1>ようこそ！ Webアルビレックス新潟へ！</h1>
+       <h2>さあ！ あなたの思いを共有しよう！</h2>
+      <%= link_to '今すぐ登録する!', signup_path, class: 'btn btn-lg btn-primary' %>
+    </div>
+  </div>
+  
+  <div class="text-center">
+    <figure>
+      <%# app/assets/images %>
+      <%= image_tag "https://cdn.pixabay.com/photo/2019/12/16/08/50/football-4698906_960_720.jpg", alt: "サッカーボール", id: "assets", class: "image", width: "800px" %>
+      <figcaption> サッカーボールの魅力</figcaption>
+    </figure>
+  </div>
+  </div>
+<% end %>
