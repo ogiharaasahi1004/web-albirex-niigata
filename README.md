@@ -55,7 +55,7 @@
 
 ***
 ## URL
-https://web-albirex.herokuapp.com/
+https://web-albirex.herokuapp.com
 
 テストユーザーアカウント
 
